@@ -1,0 +1,109 @@
+.container{
+    text-align: center;
+}
+
+.calc-container {
+    top:20px;
+    position:relative;
+    width: 350px;
+    padding: 15px 0;
+    padding-top:20px;
+    margin: 0 auto;
+    background: #444;
+    border-radius:20px;
+}
+
+.screen{
+    width:58%;
+    height:54px;
+    margin:10px;
+    line-height:54px;
+    margin: 0 auto;
+    position: relative;
+    padding-right:9px;
+    background:#cad69a;
+    text-align:right;
+    text-shadow:none;
+    border-radius:6px;
+    border:1px solid #6B6B6B;
+    font-size:26px;
+    color:#111;
+}
+
+#digit-0{
+    float: left;
+    margin-left: 30px;
+    width: 120px;
+}
+
+.screen:focus{
+      outline:none;
+}
+
+.buttons{
+    width:340px;
+    margin:12px;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+button{
+    width:65px;
+    height:45px;
+    padding:0;
+    outline:none;
+    margin:0px 0px 10px 5px;
+    border:1px solid #333;
+    border-radius:6px;
+    color:#fefefe;
+    font-size:24px;
+    line-height: 45px;
+    background:#222;
+    transition: all 1s ease;
+}
+  
+button:active {
+    color:#FFF;
+    outline:none;
+    border:1px solid #333;
+}
+  
+.clear{
+    width:65px;
+    height:45px;
+    padding:0;
+    outline:none;
+    margin:0px 0px 10px 5px;
+    border:1px solid #d02200;
+    border-radius:6px;
+    color:#fefefe;
+    font-size:24px;
+    line-height: 45px;
+    background:#d02200;
+    transition: all 1s ease;
+}
+
+.clear:active{
+    border:1px solid #444;
+}
+
+.equal{
+    width:65px;
+    background-color: #036;
+    border:1px solid #036;
+    
+}
+
+.equal:active{
+    border:1px solid #039;
+}
+
+#minus, #plus, #divide, #multiply{
+    background-color: #777;
+    border:1px solid #666;
+}
+
+#minus:active, #plus:active, #divide:active, #multiply:active{
+    border:1px solid #555;
+}
+  
