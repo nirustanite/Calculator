@@ -33,7 +33,7 @@
 #digit-0{
     float: left;
     margin-left: 30px;
-    width: 120px;
+    width: 138px;
 }
 
 .screen:focus{
@@ -67,7 +67,8 @@ button:active {
     outline:none;
     border:1px solid #333;
 }
-  
+
+
 .clear{
     width:65px;
     height:45px;
@@ -87,15 +88,8 @@ button:active {
     border:1px solid #444;
 }
 
-.equal{
-    width:65px;
-    background-color: #036;
-    border:1px solid #036;
-    
-}
-
-.equal:active{
-    border:1px solid #039;
+#equal{
+    margin-right: 21px;
 }
 
 #minus, #plus, #divide, #multiply{

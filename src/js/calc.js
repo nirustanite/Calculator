@@ -25,8 +25,8 @@ $(document).ready(function(){
   
       $("#equal").on('click', function() {
         let total =  eval(sum);
-        $("#screen").html(total);
-        
+        $("#screen").html(total % 1 != 0 ? total.toFixed(2) : total);
+
       });
   
       $("#clear").on('click', function() {
